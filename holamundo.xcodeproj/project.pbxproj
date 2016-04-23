@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C384361F1CCC2C4100EE9C6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C384361E1CCC2C4100EE9C6C /* main.m */; };
+		C38436221CCC2C4100EE9C6C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C38436211CCC2C4100EE9C6C /* AppDelegate.m */; };
+		C38436251CCC2C4100EE9C6C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C38436241CCC2C4100EE9C6C /* ViewController.m */; };
+		C38436281CCC2C4100EE9C6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C38436261CCC2C4100EE9C6C /* Main.storyboard */; };
+		C384362A1CCC2C4100EE9C6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C38436291CCC2C4100EE9C6C /* Assets.xcassets */; };
+		C384362D1CCC2C4100EE9C6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C384362B1CCC2C4100EE9C6C /* LaunchScreen.storyboard */; };
+		C38436381CCC2C4100EE9C6C /* holamundoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C38436371CCC2C4100EE9C6C /* holamundoTests.m */; };
+		C38436431CCC2C4100EE9C6C /* holamundoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C38436421CCC2C4100EE9C6C /* holamundoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C38436341CCC2C4100EE9C6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C38436121CCC2C4000EE9C6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C38436191CCC2C4000EE9C6C;
+			remoteInfo = holamundo;
+		};
+		C384363F1CCC2C4100EE9C6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C38436121CCC2C4000EE9C6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C38436191CCC2C4000EE9C6C;
+			remoteInfo = holamundo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C384361A1CCC2C4000EE9C6C /* holamundo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = holamundo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C384361E1CCC2C4100EE9C6C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C38436201CCC2C4100EE9C6C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C38436211CCC2C4100EE9C6C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C38436231CCC2C4100EE9C6C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C38436241CCC2C4100EE9C6C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C38436271CCC2C4100EE9C6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C38436291CCC2C4100EE9C6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C384362C1CCC2C4100EE9C6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C384362E1CCC2C4100EE9C6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C38436331CCC2C4100EE9C6C /* holamundoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = holamundoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C38436371CCC2C4100EE9C6C /* holamundoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = holamundoTests.m; sourceTree = "<group>"; };
+		C38436391CCC2C4100EE9C6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C384363E1CCC2C4100EE9C6C /* holamundoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = holamundoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C38436421CCC2C4100EE9C6C /* holamundoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = holamundoUITests.m; sourceTree = "<group>"; };
+		C38436441CCC2C4100EE9C6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C38436171CCC2C4000EE9C6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C38436301CCC2C4100EE9C6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C384363B1CCC2C4100EE9C6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C38436111CCC2C4000EE9C6C = {
+			isa = PBXGroup;
+			children = (
+				C384361C1CCC2C4000EE9C6C /* holamundo */,
+				C38436361CCC2C4100EE9C6C /* holamundoTests */,
+				C38436411CCC2C4100EE9C6C /* holamundoUITests */,
+				C384361B1CCC2C4000EE9C6C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C384361B1CCC2C4000EE9C6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C384361A1CCC2C4000EE9C6C /* holamundo.app */,
+				C38436331CCC2C4100EE9C6C /* holamundoTests.xctest */,
+				C384363E1CCC2C4100EE9C6C /* holamundoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C384361C1CCC2C4000EE9C6C /* holamundo */ = {
+			isa = PBXGroup;
+			children = (
+				C38436201CCC2C4100EE9C6C /* AppDelegate.h */,
+				C38436211CCC2C4100EE9C6C /* AppDelegate.m */,
+				C38436231CCC2C4100EE9C6C /* ViewController.h */,
+				C38436241CCC2C4100EE9C6C /* ViewController.m */,
+				C38436261CCC2C4100EE9C6C /* Main.storyboard */,
+				C38436291CCC2C4100EE9C6C /* Assets.xcassets */,
+				C384362B1CCC2C4100EE9C6C /* LaunchScreen.storyboard */,
+				C384362E1CCC2C4100EE9C6C /* Info.plist */,
+				C384361D1CCC2C4000EE9C6C /* Supporting Files */,
+			);
+			path = holamundo;
+			sourceTree = "<group>";
+		};
+		C384361D1CCC2C4000EE9C6C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C384361E1CCC2C4100EE9C6C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C38436361CCC2C4100EE9C6C /* holamundoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C38436371CCC2C4100EE9C6C /* holamundoTests.m */,
+				C38436391CCC2C4100EE9C6C /* Info.plist */,
+			);
+			path = holamundoTests;
+			sourceTree = "<group>";
+		};
+		C38436411CCC2C4100EE9C6C /* holamundoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C38436421CCC2C4100EE9C6C /* holamundoUITests.m */,
+				C38436441CCC2C4100EE9C6C /* Info.plist */,
+			);
+			path = holamundoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C38436191CCC2C4000EE9C6C /* holamundo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C38436471CCC2C4100EE9C6C /* Build configuration list for PBXNativeTarget "holamundo" */;
+			buildPhases = (
+				C38436161CCC2C4000EE9C6C /* Sources */,
+				C38436171CCC2C4000EE9C6C /* Frameworks */,
+				C38436181CCC2C4000EE9C6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = holamundo;
+			productName = holamundo;
+			productReference = C384361A1CCC2C4000EE9C6C /* holamundo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C38436321CCC2C4100EE9C6C /* holamundoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C384364A1CCC2C4100EE9C6C /* Build configuration list for PBXNativeTarget "holamundoTests" */;
+			buildPhases = (
+				C384362F1CCC2C4100EE9C6C /* Sources */,
+				C38436301CCC2C4100EE9C6C /* Frameworks */,
+				C38436311CCC2C4100EE9C6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C38436351CCC2C4100EE9C6C /* PBXTargetDependency */,
+			);
+			name = holamundoTests;
+			productName = holamundoTests;
+			productReference = C38436331CCC2C4100EE9C6C /* holamundoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C384363D1CCC2C4100EE9C6C /* holamundoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C384364D1CCC2C4100EE9C6C /* Build configuration list for PBXNativeTarget "holamundoUITests" */;
+			buildPhases = (
+				C384363A1CCC2C4100EE9C6C /* Sources */,
+				C384363B1CCC2C4100EE9C6C /* Frameworks */,
+				C384363C1CCC2C4100EE9C6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C38436401CCC2C4100EE9C6C /* PBXTargetDependency */,
+			);
+			name = holamundoUITests;
+			productName = holamundoUITests;
+			productReference = C384363E1CCC2C4100EE9C6C /* holamundoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C38436121CCC2C4000EE9C6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Administrator;
+				TargetAttributes = {
+					C38436191CCC2C4000EE9C6C = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					C38436321CCC2C4100EE9C6C = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = C38436191CCC2C4000EE9C6C;
+					};
+					C384363D1CCC2C4100EE9C6C = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = C38436191CCC2C4000EE9C6C;
+					};
+				};
+			};
+			buildConfigurationList = C38436151CCC2C4000EE9C6C /* Build configuration list for PBXProject "holamundo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C38436111CCC2C4000EE9C6C;
+			productRefGroup = C384361B1CCC2C4000EE9C6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C38436191CCC2C4000EE9C6C /* holamundo */,
+				C38436321CCC2C4100EE9C6C /* holamundoTests */,
+				C384363D1CCC2C4100EE9C6C /* holamundoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C38436181CCC2C4000EE9C6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C384362D1CCC2C4100EE9C6C /* LaunchScreen.storyboard in Resources */,
+				C384362A1CCC2C4100EE9C6C /* Assets.xcassets in Resources */,
+				C38436281CCC2C4100EE9C6C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C38436311CCC2C4100EE9C6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C384363C1CCC2C4100EE9C6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C38436161CCC2C4000EE9C6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C38436251CCC2C4100EE9C6C /* ViewController.m in Sources */,
+				C38436221CCC2C4100EE9C6C /* AppDelegate.m in Sources */,
+				C384361F1CCC2C4100EE9C6C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C384362F1CCC2C4100EE9C6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C38436381CCC2C4100EE9C6C /* holamundoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C384363A1CCC2C4100EE9C6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C38436431CCC2C4100EE9C6C /* holamundoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C38436351CCC2C4100EE9C6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C38436191CCC2C4000EE9C6C /* holamundo */;
+			targetProxy = C38436341CCC2C4100EE9C6C /* PBXContainerItemProxy */;
+		};
+		C38436401CCC2C4100EE9C6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C38436191CCC2C4000EE9C6C /* holamundo */;
+			targetProxy = C384363F1CCC2C4100EE9C6C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C38436261CCC2C4100EE9C6C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C38436271CCC2C4100EE9C6C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C384362B1CCC2C4100EE9C6C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C384362C1CCC2C4100EE9C6C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C38436451CCC2C4100EE9C6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C38436461CCC2C4100EE9C6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C38436481CCC2C4100EE9C6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = holamundo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chatme.holamundo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C38436491CCC2C4100EE9C6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = holamundo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chatme.holamundo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C384364B1CCC2C4100EE9C6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = holamundoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chatme.holamundoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/holamundo.app/holamundo";
+			};
+			name = Debug;
+		};
+		C384364C1CCC2C4100EE9C6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = holamundoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chatme.holamundoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/holamundo.app/holamundo";
+			};
+			name = Release;
+		};
+		C384364E1CCC2C4100EE9C6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = holamundoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chatme.holamundoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = holamundo;
+			};
+			name = Debug;
+		};
+		C384364F1CCC2C4100EE9C6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = holamundoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chatme.holamundoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = holamundo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C38436151CCC2C4000EE9C6C /* Build configuration list for PBXProject "holamundo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C38436451CCC2C4100EE9C6C /* Debug */,
+				C38436461CCC2C4100EE9C6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C38436471CCC2C4100EE9C6C /* Build configuration list for PBXNativeTarget "holamundo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C38436481CCC2C4100EE9C6C /* Debug */,
+				C38436491CCC2C4100EE9C6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C384364A1CCC2C4100EE9C6C /* Build configuration list for PBXNativeTarget "holamundoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C384364B1CCC2C4100EE9C6C /* Debug */,
+				C384364C1CCC2C4100EE9C6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C384364D1CCC2C4100EE9C6C /* Build configuration list for PBXNativeTarget "holamundoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C384364E1CCC2C4100EE9C6C /* Debug */,
+				C384364F1CCC2C4100EE9C6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C38436121CCC2C4000EE9C6C /* Project object */;
+}
